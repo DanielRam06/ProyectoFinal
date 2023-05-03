@@ -143,7 +143,7 @@ public class MyWindow extends JFrame implements ActionListener, MouseListener, C
 	canvas.setBounds((width / 2) - 250, (height / 2) - 300, 500, 500);
 
 	// Configura la etiqueta "CREA TU PROPIO ARTE"
-	createArtLabel = new JLabel("CREA TU PROPIO ARTE...");
+	createArtLabel = new JLabel("CREA TU PROOPIO ARTE...");
 	createArtLabel.setBounds(canvas.getX() -100, canvas.getY() - 80, 800, 40);
 	createArtLabel.setFont(new Font("Lucida Calligraphy", Font.PLAIN, 50));
 
